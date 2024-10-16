@@ -11,7 +11,7 @@ const App = () => {
   }
   return (
     <>
-    <div className="bg-[#d2d6de] w-screen h-screen">
+    <div className="bg-[#d2d6de] mx-auto w-screen h-screen">
       <h1 className="text-3xl capitalize font-extrabold text-[#444444] text-center pt-7 lg:w-1/2">varendra university</h1>
       <form onSubmit={handleSubmit} className="bg-white m-10 p-5 space-y-3 md:w-1/3">
         <h5 className="text-center font-extralight text-sm">Sign in to start your session</h5>
